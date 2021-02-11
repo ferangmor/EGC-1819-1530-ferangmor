@@ -1,4 +1,8 @@
 dist: xenial
+# safelist
+branches:
+  only:
+  - master
 services:
   - postgresql
 addons:
